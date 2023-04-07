@@ -1,14 +1,10 @@
+import { createCatalogItem } from './js/creators.js'
+
 async function getPastry() {
   const response = await fetch('http://localhost:1717/pastry');
   const pastry = await response.json();
 
   return pastry;
-}
-
-function createCatalogItem(item) {
-  const div = document.createElement('div')
-  div.textContent = item.name
-  return div
 }
 
 async function renderCatalog() {
