@@ -1,0 +1,34 @@
+.catalog {
+
+}
+
+.catalog__title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.catalog__item {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+}
+
+.catalog__item-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.catalog__item-buy-btn {
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.catalog__item-price {
+  font-size: 18px;
+  margin-top: 10px;
+}
