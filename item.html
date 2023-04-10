@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">PASTRY SHOP</div>
+      <menu class="header__menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Add new pastry</a></li>
+        <li><a href="#">About</a></li>
+      </menu>
+      <button class="header__menu-btn">Menu</button>
+    </div>
+  </header>
+
+  <section class="pastry-item">
+    <div class="container">
+      <div class="pastry-item__inner">
+        <h1 class="pastry-item__title">Name of pasty</h1>
+        <img class="pastry-item__image" src="https://images.unsplash.com/photo-1680951103843-a370c042fb03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt="">
+        
+        <table class="pastry-item__table" cellspacing="0">
+          <tbody>
+            <tr>
+              <td>Price</td>
+              <td>10$</td>
+            </tr>
+            <tr>
+              <td>Ingredients</td>
+              <td>apple, banana, sugar</td>
+            </tr>
+            <tr>
+              <td>In Stock</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+  <script type="module" src="./js/item.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.pastry-item {
+  margin-top: 40px;
+}
+
+.pastry-item__inner {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.pastry-item__title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.pastry-item__image {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+}
+
+.pastry-item__table {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.pastry-item__table td {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  padding-right: 50px;
+}
+.pastry-item__table td:first-child {
+  border-left: 1px solid #000;
+  font-weight: 700;
+}
+.pastry-item__table tr:first-child td {
+  border-top: 1px solid #000;
+}
